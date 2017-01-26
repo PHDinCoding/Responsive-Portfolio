@@ -1,0 +1,183 @@
+body{
+	margin-top:0;
+	margin-left:0;
+}
+.container{
+	position:relative;
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+
+
+
+
+
+.header{
+	height:79px;
+	width:960px;
+	background-color: #ffffff;
+	position:relative;
+	
+}
+
+.header div{
+	position:absolute;
+	left:67.5px;
+	margin-top: 0 auto;
+	display: inline-block;
+	width: 200px;
+	background-color: #4aaaa5;
+}
+.name{
+	
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #ffffff;
+}
+
+.header ul{
+	position:absolute;
+	left:650px;
+	top:20px;
+}
+.header ul li{
+	display:inline-block;
+
+}
+.header ul li a{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #cccccc;
+}
+.header ul li a:hover {
+	color: black;
+}
+li:not(:first-child):before {
+
+    content: " | ";
+}
+
+.border{
+	border-style: solid;
+	border-width: 1px ;
+	border-color: #cccccc;
+}
+
+
+
+
+
+
+
+
+.section{
+	width:960px;
+	height: 500px;
+	position:relative;
+	margin-top: 0;
+	background-image: url("https://subtlepatterns.com/patterns/ignasi_pattern_s.png");
+	background-repeat: repeat;
+}
+
+.section-wrapper-left-box {
+	position:absolute;
+	left: 67.5px;
+	top:67.5px;
+	
+	height: 350px;
+	width: 500px;
+	background-color: white;
+}
+
+.section-wrapper-right-box {
+	position:absolute;
+	/*left: 630px;*/
+	top: 67.5px;
+	right: 67.5px;
+	height: 200px;
+	width: 250px;
+	background-color: white;
+}
+
+.section-wrapper-right-box h3{
+	position:absolute;
+	left: 30px;
+	top: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+	border-bottom: 2px #cccccc solid;
+	width: 190px;
+}
+.section h1 {
+	position:absolute;
+	left: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+	border-bottom: 2px #cccccc solid;
+	width: 447px;
+}
+
+.section img {
+	position:absolute;
+	left: 10px;
+	top: 70px;
+}
+.section .p1 {
+	position:absolute;
+	left:200px;
+	top: 70px;
+	right:20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+}
+.section .p2 {
+	position:absolute;
+	left:30px;
+	top: 260px;
+	right:20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+}
+
+.section-wrapper-right-box .icon1 {
+	position: relative;
+	top: 90px;
+
+}
+
+.section-wrapper-right-box .icon2 {
+	position: relative;
+	top: 90px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.section-wrapper-right-box .icon3 {
+	position: relative;
+	top: 90px;
+}
+
+
+
+
+
+.footer{
+	background-color: #666666;
+	height: 80px;
+	width: 960px;
+	position:relative;
+	border-top: 5px #4aaaa5 solid
+}
+
+.footer .foot{
+	text-align: center;
+	color: #777777;
+	position:absolute;
+	font-size: 13px;
+	left: 35%;
+	bottom: 35px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
